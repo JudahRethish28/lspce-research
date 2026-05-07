@@ -1,0 +1,38 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "title": "Warrant",
+  "type": "object",
+  "required": ["warrant_id","tenant_id","incident_type",
+               "time_window","authorised_evidence_types",
+               "legal_authority","requesting_entity"],
+  "properties": {
+    "warrant_id": {"type": "string"},
+    "tenant_id":  {"type": "string"},
+    "incident_type": {
+      "type": "string",
+      "enum": ["credential_spray","insider_exfiltration","ransomware"]
+    },
+    "time_window": {
+      "type": "object",
+      "required": ["start","end"],
+      "properties": {
+        "start": {"type": "string", "format": "date-time"},
+        "end":   {"type": "string", "format": "date-time"}
+      }
+    },
+    "authorised_evidence_types": {
+      "type": "array",
+      "items": {"type": "string",
+        "enum": ["cloudtrail_management","s3_data_events"]}
+    },
+    "legal_authority": {
+      "type": "object",
+      "required": ["order_number","jurisdiction"],
+      "properties": {
+        "order_number":  {"type": "string"},
+        "jurisdiction":  {"type": "string"}
+      }
+    },
+    "requesting_entity": {"type": "string"}
+  }
+}
