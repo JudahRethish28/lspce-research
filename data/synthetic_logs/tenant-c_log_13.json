@@ -1,0 +1,824 @@
+{
+  "Records": [
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "4a594ffb-1b56-473a-b5ae-876311ae1cfd",
+        "arn": "arn:aws:iam::345678901234:user/grace.iyer",
+        "accountId": "345678901234",
+        "userName": "grace.iyer",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2025-05-01T09:39:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-01T09:39:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "172.24.222.170",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-c-archive",
+        "key": "data/place.flac"
+      },
+      "responseElements": null,
+      "requestID": "18c1b349-cd73-4780-91ee-f091c539fc5b",
+      "eventID": "e5666c9e-7a1a-43f7-820c-e3f84eeb722b",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-c-archive",
+          "accountId": "345678901234",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "345678901234"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "bc60d053-36ba-4174-a8c6-8373a6f5c1e6",
+        "arn": "arn:aws:iam::345678901234:user/grace.iyer",
+        "accountId": "345678901234",
+        "userName": "grace.iyer",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2025-05-01T10:39:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-01T10:39:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "192.168.156.231",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-c-archive",
+        "key": "data/growth.webm"
+      },
+      "responseElements": null,
+      "requestID": "0dcb73e5-f939-454d-9852-9fc9d194cbc6",
+      "eventID": "96461422-21cc-4fb8-8389-70bb548ae77a",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-c-archive",
+          "accountId": "345678901234",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "345678901234"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "3d8a0119-1287-40d9-b101-f055458db33b",
+        "arn": "arn:aws:iam::345678901234:user/henry.das",
+        "accountId": "345678901234",
+        "userName": "henry.das",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2025-05-01T11:39:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-01T11:39:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "10.209.127.34",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-c-archive",
+        "key": "data/particularly.tiff"
+      },
+      "responseElements": null,
+      "requestID": "04b940c7-5556-4257-b9f6-129371b99049",
+      "eventID": "87a0b2a5-3638-4ad4-8100-a54bd8ebbe87",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-c-archive",
+          "accountId": "345678901234",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "345678901234"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "9466956a-4474-463e-a4fb-37c559cabe50",
+        "arn": "arn:aws:iam::345678901234:user/iris.menon",
+        "accountId": "345678901234",
+        "userName": "iris.menon",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2025-05-01T12:39:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-01T12:39:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "172.24.214.49",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-c-prod",
+        "key": "data/between.mp3"
+      },
+      "responseElements": null,
+      "requestID": "1c74fa91-de00-41eb-8c74-8fdc3370d032",
+      "eventID": "1ac8c895-83db-4730-b278-549d856c2c5c",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-c-prod",
+          "accountId": "345678901234",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "345678901234"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "c2280c50-983a-4399-8065-154e440cdd74",
+        "arn": "arn:aws:iam::345678901234:user/grace.iyer",
+        "accountId": "345678901234",
+        "userName": "grace.iyer",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2025-05-01T13:39:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-01T13:39:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "192.168.218.128",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-c-archive",
+        "key": "data/huge.gif"
+      },
+      "responseElements": null,
+      "requestID": "f152c541-881c-43dc-9d87-4bc6fc0bf661",
+      "eventID": "fd271efe-5108-4305-b03d-5ce1585b61fb",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-c-archive",
+          "accountId": "345678901234",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "345678901234"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "b1528972-051e-4c52-9aeb-4fe01a046bc8",
+        "arn": "arn:aws:iam::345678901234:user/iris.menon",
+        "accountId": "345678901234",
+        "userName": "iris.menon",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2025-05-01T14:39:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-01T14:39:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "192.168.54.174",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-c-archive",
+        "key": "data/mouth.mp3"
+      },
+      "responseElements": null,
+      "requestID": "ca15642d-7656-43a0-bb9d-01231a2c18fd",
+      "eventID": "84298443-358b-4083-95fc-fd8b83886050",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-c-archive",
+          "accountId": "345678901234",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "345678901234"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "a653c193-44a4-41b0-8642-9b21a73cde45",
+        "arn": "arn:aws:iam::345678901234:user/iris.menon",
+        "accountId": "345678901234",
+        "userName": "iris.menon",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2025-05-01T15:39:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-01T15:39:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "10.50.52.87",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-c-prod",
+        "key": "data/somebody.odt"
+      },
+      "responseElements": null,
+      "requestID": "171e00ec-430e-42d9-80bf-ccbd5b028f8c",
+      "eventID": "003f275d-b35e-483e-b5e2-57aa39da3bf7",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-c-prod",
+          "accountId": "345678901234",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "345678901234"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "aa95c3fc-9a72-4809-ae35-3a6b02de5a93",
+        "arn": "arn:aws:iam::345678901234:user/grace.iyer",
+        "accountId": "345678901234",
+        "userName": "grace.iyer",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2025-05-01T16:39:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-01T16:39:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "172.17.181.21",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-c-prod",
+        "key": "data/focus.mp4"
+      },
+      "responseElements": null,
+      "requestID": "99c2ae86-99c8-4664-9f32-f4d523360f8e",
+      "eventID": "4bbbdf1a-61f5-4e9f-9eb5-47264be0be13",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-c-prod",
+          "accountId": "345678901234",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "345678901234"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "4c09386f-c59d-4e53-9395-52a08a5d8c88",
+        "arn": "arn:aws:iam::345678901234:user/henry.das",
+        "accountId": "345678901234",
+        "userName": "henry.das",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2025-05-01T17:39:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-01T17:39:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "10.166.176.110",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-c-archive",
+        "key": "data/all.csv"
+      },
+      "responseElements": null,
+      "requestID": "18889cd3-a789-4a8e-b85a-ccaaa58f7f14",
+      "eventID": "a4a765a3-f48c-4f3f-8980-9966a3faa98b",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-c-archive",
+          "accountId": "345678901234",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "345678901234"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "53ea0175-8abc-4100-9ffb-46113e08542c",
+        "arn": "arn:aws:iam::345678901234:user/henry.das",
+        "accountId": "345678901234",
+        "userName": "henry.das",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2025-05-01T18:39:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-01T18:39:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "10.197.39.205",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-c-prod",
+        "key": "data/house.odp"
+      },
+      "responseElements": null,
+      "requestID": "51fd474e-9175-4d78-89a9-8793fb4ec52e",
+      "eventID": "22ddcd23-c01d-4c47-8184-cee200c1df40",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-c-prod",
+          "accountId": "345678901234",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "345678901234"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "a7e63f67-e959-4216-b930-d0deffede5df",
+        "arn": "arn:aws:iam::345678901234:user/grace.iyer",
+        "accountId": "345678901234",
+        "userName": "grace.iyer",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2025-05-01T19:39:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-01T19:39:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "10.203.84.184",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-c-archive",
+        "key": "data/plant.json"
+      },
+      "responseElements": null,
+      "requestID": "f0d2e402-0e4e-4bec-b9a8-818e813f9fd8",
+      "eventID": "b6ed30b4-eb53-4f25-a4d4-5e9a5ae148e1",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-c-archive",
+          "accountId": "345678901234",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "345678901234"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "c07c7b40-2aa3-438d-95f0-fb0747186def",
+        "arn": "arn:aws:iam::345678901234:user/henry.das",
+        "accountId": "345678901234",
+        "userName": "henry.das",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2025-05-01T20:39:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-01T20:39:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "192.168.163.247",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-c-archive",
+        "key": "data/drop.html"
+      },
+      "responseElements": null,
+      "requestID": "9ec44b5d-cbd1-40ab-ad85-43bf162e9e1f",
+      "eventID": "694a8bdf-dfc7-4114-9f76-0458651f9aa5",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-c-archive",
+          "accountId": "345678901234",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "345678901234"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "596b57a6-0e74-40c6-97ea-5303386cc326",
+        "arn": "arn:aws:iam::345678901234:user/grace.iyer",
+        "accountId": "345678901234",
+        "userName": "grace.iyer",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2025-05-01T21:39:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-01T21:39:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "192.168.80.86",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-c-prod",
+        "key": "data/eye.txt"
+      },
+      "responseElements": null,
+      "requestID": "98101b44-1627-4fc5-847f-08a1c7b4f6b0",
+      "eventID": "80869086-f378-43e1-ae5a-3f810b94ddb8",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-c-prod",
+          "accountId": "345678901234",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "345678901234"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "f909a948-84b2-4283-9de9-577ef1559dc5",
+        "arn": "arn:aws:iam::345678901234:user/iris.menon",
+        "accountId": "345678901234",
+        "userName": "iris.menon",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2025-05-01T22:39:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-01T22:39:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "192.168.26.24",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-c-prod",
+        "key": "data/apply.flac"
+      },
+      "responseElements": null,
+      "requestID": "c9d5ccc0-aaa5-432a-9121-f9699493b677",
+      "eventID": "b99c4230-6462-48a9-9de0-4b7b956f7b5a",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-c-prod",
+          "accountId": "345678901234",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "345678901234"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "409b025c-64ff-402d-a35d-87462b4ec52d",
+        "arn": "arn:aws:iam::345678901234:user/iris.menon",
+        "accountId": "345678901234",
+        "userName": "iris.menon",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2025-05-01T23:39:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-01T23:39:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "172.31.97.28",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-c-archive",
+        "key": "data/from.avi"
+      },
+      "responseElements": null,
+      "requestID": "0489cf1f-b6e3-40fc-9607-be8306b5dc56",
+      "eventID": "1417040b-38a7-4f6c-8080-47f378686028",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-c-archive",
+          "accountId": "345678901234",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "345678901234"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "d128f0e5-42b5-4b9d-bf0e-02c0f8d0e8c6",
+        "arn": "arn:aws:iam::345678901234:user/grace.iyer",
+        "accountId": "345678901234",
+        "userName": "grace.iyer",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2025-05-02T00:39:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-02T00:39:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "192.168.196.41",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-c-prod",
+        "key": "data/group.ods"
+      },
+      "responseElements": null,
+      "requestID": "9ad59ba2-f132-436f-ad7b-5400fcd8be02",
+      "eventID": "0cd5be60-9099-4c00-875f-f3cd5dbdc818",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-c-prod",
+          "accountId": "345678901234",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "345678901234"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "37c9bb11-9872-42ef-9c96-cd6d82a3a80a",
+        "arn": "arn:aws:iam::345678901234:user/grace.iyer",
+        "accountId": "345678901234",
+        "userName": "grace.iyer",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2025-05-02T01:39:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-02T01:39:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "192.168.44.62",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-c-prod",
+        "key": "data/without.doc"
+      },
+      "responseElements": null,
+      "requestID": "bdc3c88b-d3c9-48a7-817b-9c36fcb4806f",
+      "eventID": "254c2ca4-19ac-40ba-8735-cb365585afb5",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-c-prod",
+          "accountId": "345678901234",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "345678901234"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "78ecd39c-0b7e-41d4-a0fb-a42efe527c22",
+        "arn": "arn:aws:iam::345678901234:user/grace.iyer",
+        "accountId": "345678901234",
+        "userName": "grace.iyer",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2025-05-02T02:39:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-02T02:39:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "10.203.191.84",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-c-prod",
+        "key": "data/along.odp"
+      },
+      "responseElements": null,
+      "requestID": "957fce49-fcd5-4ca6-a1fa-df2c4e26b654",
+      "eventID": "9cc9d7bb-af2c-43fb-bd25-e79677a415bd",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-c-prod",
+          "accountId": "345678901234",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "345678901234"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "94461696-5080-4877-a098-c3c7c2682ffc",
+        "arn": "arn:aws:iam::345678901234:user/iris.menon",
+        "accountId": "345678901234",
+        "userName": "iris.menon",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2025-05-02T03:39:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-02T03:39:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "172.23.76.113",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-c-prod",
+        "key": "data/huge.wav"
+      },
+      "responseElements": null,
+      "requestID": "a6cbb35b-921f-406e-85d3-5b5a2d968839",
+      "eventID": "6a3971da-e73b-4923-9ddf-8f733fa4041f",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-c-prod",
+          "accountId": "345678901234",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "345678901234"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "d5f92659-96e0-4317-b7d3-a530eca53ebf",
+        "arn": "arn:aws:iam::345678901234:user/grace.iyer",
+        "accountId": "345678901234",
+        "userName": "grace.iyer",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2025-05-02T04:39:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-02T04:39:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "192.168.241.125",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-c-archive",
+        "key": "data/wide.gif"
+      },
+      "responseElements": null,
+      "requestID": "29f17d3d-5c81-4585-a2ba-a209049589ec",
+      "eventID": "0edaa006-61aa-4294-a3cc-f352913df4e3",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-c-archive",
+          "accountId": "345678901234",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "345678901234"
+    }
+  ]
+}

@@ -1,0 +1,1644 @@
+{
+  "Records": [
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "e889173c-4237-4700-8733-018f8dbeff9a",
+        "arn": "arn:aws:iam::234567890123:user/david.raj",
+        "accountId": "234567890123",
+        "userName": "david.raj",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-01T09:06:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-01T09:06:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "132.49.146.138",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-b-finance",
+        "key": "data/enjoy.mp3"
+      },
+      "responseElements": null,
+      "requestID": "f47269a7-6bbd-4b75-8567-e9b0b0acb2ad",
+      "eventID": "5f55ecbb-699b-4ec7-a930-106f3d11bdca",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-b-finance",
+          "accountId": "234567890123",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "234567890123"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "890018f0-0a7f-4265-afde-960775ad2d27",
+        "arn": "arn:aws:iam::234567890123:user/frank.nair",
+        "accountId": "234567890123",
+        "userName": "frank.nair",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-01T10:06:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-01T10:06:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "32.45.210.166",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-b-finance",
+        "key": "data/tonight.mp3"
+      },
+      "responseElements": null,
+      "requestID": "6b02b55f-1af3-42e1-bbc1-e7acdc903d83",
+      "eventID": "056af449-f78d-4a4e-b71b-e375956bc3c2",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-b-finance",
+          "accountId": "234567890123",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "234567890123"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "987956a5-886a-42a6-b9da-2ce5b974adff",
+        "arn": "arn:aws:iam::234567890123:user/david.raj",
+        "accountId": "234567890123",
+        "userName": "david.raj",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-01T11:06:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-01T11:06:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "71.188.139.102",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-b-finance",
+        "key": "data/almost.wav"
+      },
+      "responseElements": null,
+      "requestID": "2b580805-9079-44f2-9188-9a82eb1ecaf6",
+      "eventID": "dc9db147-32b3-4fcb-8565-4a218061de7b",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-b-finance",
+          "accountId": "234567890123",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "234567890123"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "826ed1c6-07d7-4590-88f8-f1a8f2c039c8",
+        "arn": "arn:aws:iam::234567890123:user/david.raj",
+        "accountId": "234567890123",
+        "userName": "david.raj",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-01T12:06:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-01T12:06:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "130.76.212.35",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-b-hr",
+        "key": "data/fund.flac"
+      },
+      "responseElements": null,
+      "requestID": "1b149bc9-20ac-4131-9f1b-7ba9bedbec9d",
+      "eventID": "17487af8-0558-4f01-86b1-a706231b3a95",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-b-hr",
+          "accountId": "234567890123",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "234567890123"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "29235d49-7a19-419d-b02e-938a886309db",
+        "arn": "arn:aws:iam::234567890123:user/eve.patel",
+        "accountId": "234567890123",
+        "userName": "eve.patel",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-01T13:06:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-01T13:06:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "194.248.156.59",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-b-finance",
+        "key": "data/husband.bmp"
+      },
+      "responseElements": null,
+      "requestID": "dcab62fc-33d0-4eeb-9bfe-4bff05558fea",
+      "eventID": "7a2cb9be-ef8f-4f93-8274-2c32980d7d61",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-b-finance",
+          "accountId": "234567890123",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "234567890123"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "fcd41539-30f6-4a40-969d-c5a8678d3fc2",
+        "arn": "arn:aws:iam::234567890123:user/frank.nair",
+        "accountId": "234567890123",
+        "userName": "frank.nair",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-01T14:06:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-01T14:06:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "74.54.77.4",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-b-finance",
+        "key": "data/move.mov"
+      },
+      "responseElements": null,
+      "requestID": "67b24339-dbee-486c-bccc-61b17fd91629",
+      "eventID": "e1b90ff0-fa65-4d6c-b3f2-f350422a4393",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-b-finance",
+          "accountId": "234567890123",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "234567890123"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "64e76042-92db-4495-a2db-7b94c0b1f433",
+        "arn": "arn:aws:iam::234567890123:user/frank.nair",
+        "accountId": "234567890123",
+        "userName": "frank.nair",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-01T15:06:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-01T15:06:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "172.43.57.120",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-b-hr",
+        "key": "data/your.csv"
+      },
+      "responseElements": null,
+      "requestID": "ef54f0e2-52b0-4633-9c98-0ffd532bed75",
+      "eventID": "ba0468fa-bf47-446c-bf28-cb292f86c8ed",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-b-hr",
+          "accountId": "234567890123",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "234567890123"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "88f3b0e9-b2e6-4fea-bece-94bc1731a0c0",
+        "arn": "arn:aws:iam::234567890123:user/eve.patel",
+        "accountId": "234567890123",
+        "userName": "eve.patel",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-01T16:06:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-01T16:06:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "179.127.91.94",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-b-finance",
+        "key": "data/reason.key"
+      },
+      "responseElements": null,
+      "requestID": "e1ce0a55-60a5-4d25-8494-6045cbd6d696",
+      "eventID": "162d7fea-4acd-401e-a14d-b2d65bb2244f",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-b-finance",
+          "accountId": "234567890123",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "234567890123"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "716e855e-4beb-4fbd-a9ec-92052d00e3ee",
+        "arn": "arn:aws:iam::234567890123:user/frank.nair",
+        "accountId": "234567890123",
+        "userName": "frank.nair",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-01T17:06:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-01T17:06:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "157.180.216.152",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-b-hr",
+        "key": "data/determine.jpg"
+      },
+      "responseElements": null,
+      "requestID": "46f1dc9b-9224-4d2e-8190-c30109f3e341",
+      "eventID": "0eb60184-2c54-4756-a8d9-8146ac376c06",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-b-hr",
+          "accountId": "234567890123",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "234567890123"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "00ce338b-d0b6-4ce6-b665-961d06878e96",
+        "arn": "arn:aws:iam::234567890123:user/frank.nair",
+        "accountId": "234567890123",
+        "userName": "frank.nair",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-01T18:06:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-01T18:06:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "24.157.217.246",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-b-finance",
+        "key": "data/scene.webm"
+      },
+      "responseElements": null,
+      "requestID": "b3e517bc-08e8-4bce-90be-8948152d7d9a",
+      "eventID": "629da370-8c20-45a7-8b27-3b7e5be790ff",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-b-finance",
+          "accountId": "234567890123",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "234567890123"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "26ef926c-556e-44b5-a9c0-e27a5d50a909",
+        "arn": "arn:aws:iam::234567890123:user/eve.patel",
+        "accountId": "234567890123",
+        "userName": "eve.patel",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-01T19:06:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-01T19:06:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "222.170.217.93",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-b-hr",
+        "key": "data/walk.mp3"
+      },
+      "responseElements": null,
+      "requestID": "432377cc-a61c-4595-857b-9695212450ac",
+      "eventID": "a93c87fd-05d4-43f9-8c01-f5fae039ec61",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-b-hr",
+          "accountId": "234567890123",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "234567890123"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "b359fc1a-500d-4c2f-975f-f371bbfcf63d",
+        "arn": "arn:aws:iam::234567890123:user/david.raj",
+        "accountId": "234567890123",
+        "userName": "david.raj",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-01T20:06:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-01T20:06:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "139.164.50.161",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-b-finance",
+        "key": "data/factor.gif"
+      },
+      "responseElements": null,
+      "requestID": "14cceed1-fc8e-4ac4-b13a-191c3600ef53",
+      "eventID": "04c636ca-c249-45d5-a324-96d4f5e2b250",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-b-finance",
+          "accountId": "234567890123",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "234567890123"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "68bf8c06-e087-4f48-96a9-1928ba533c13",
+        "arn": "arn:aws:iam::234567890123:user/frank.nair",
+        "accountId": "234567890123",
+        "userName": "frank.nair",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-01T21:06:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-01T21:06:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "102.5.183.67",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-b-finance",
+        "key": "data/why.flac"
+      },
+      "responseElements": null,
+      "requestID": "973d97fa-6bab-43ad-a25d-fb0fc895adef",
+      "eventID": "b593f77b-8ec3-4768-b20a-9cd41d492989",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-b-finance",
+          "accountId": "234567890123",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "234567890123"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "e6f92367-6bed-4097-b530-5a4543d89142",
+        "arn": "arn:aws:iam::234567890123:user/frank.nair",
+        "accountId": "234567890123",
+        "userName": "frank.nair",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-01T22:06:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-01T22:06:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "10.5.228.109",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-b-hr",
+        "key": "data/these.txt"
+      },
+      "responseElements": null,
+      "requestID": "467d44b0-850c-405d-8ceb-72acc6347803",
+      "eventID": "632ea53e-3894-408b-b269-a1d8f07126b1",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-b-hr",
+          "accountId": "234567890123",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "234567890123"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "c23b50be-c7fe-47ff-8dee-4060975f834b",
+        "arn": "arn:aws:iam::234567890123:user/david.raj",
+        "accountId": "234567890123",
+        "userName": "david.raj",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-01T23:06:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-01T23:06:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "42.73.92.136",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-b-hr",
+        "key": "data/push.mp4"
+      },
+      "responseElements": null,
+      "requestID": "4b60d2e3-c4cd-456a-9768-e94de8523820",
+      "eventID": "0e93d9e5-7150-42a5-abee-9bf59b676bd6",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-b-hr",
+          "accountId": "234567890123",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "234567890123"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "00a2da97-8879-47ea-9b4f-1d4c9b4c86ee",
+        "arn": "arn:aws:iam::234567890123:user/eve.patel",
+        "accountId": "234567890123",
+        "userName": "eve.patel",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-02T00:06:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-02T00:06:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "89.209.27.149",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-b-hr",
+        "key": "data/relationship.mp4"
+      },
+      "responseElements": null,
+      "requestID": "3bdf8cb8-1355-4d08-9a0a-f77f4f9d1976",
+      "eventID": "8e475f7f-b7f9-4f37-abd6-124f995d0ca0",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-b-hr",
+          "accountId": "234567890123",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "234567890123"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "b324d140-92b3-43d8-890a-2dbf8d9d7b03",
+        "arn": "arn:aws:iam::234567890123:user/david.raj",
+        "accountId": "234567890123",
+        "userName": "david.raj",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-02T01:06:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-02T01:06:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "74.94.33.244",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-b-finance",
+        "key": "data/human.ods"
+      },
+      "responseElements": null,
+      "requestID": "815c46ad-b143-4bd6-a3a3-1747fe923a42",
+      "eventID": "610b8bc4-de0f-4794-911b-f04a7ca598c1",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-b-finance",
+          "accountId": "234567890123",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "234567890123"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "7d10447e-c277-49f7-beb9-3be8d74a048c",
+        "arn": "arn:aws:iam::234567890123:user/david.raj",
+        "accountId": "234567890123",
+        "userName": "david.raj",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-02T02:06:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-02T02:06:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "48.142.56.35",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-b-finance",
+        "key": "data/also.csv"
+      },
+      "responseElements": null,
+      "requestID": "9f0f9612-8cf7-4043-8dee-8aa901a4ce8f",
+      "eventID": "6deffcd1-05e6-42a5-bc95-5a8e79c86f2e",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-b-finance",
+          "accountId": "234567890123",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "234567890123"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "2b1997bc-fd94-412d-a63b-2db5b858a174",
+        "arn": "arn:aws:iam::234567890123:user/eve.patel",
+        "accountId": "234567890123",
+        "userName": "eve.patel",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-02T03:06:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-02T03:06:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "63.165.250.48",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-b-finance",
+        "key": "data/item.json"
+      },
+      "responseElements": null,
+      "requestID": "bd1ed9bd-dfd1-43ba-ba7a-f47433112439",
+      "eventID": "f86e3f9d-9d2e-4661-9eb8-72a9d080ab96",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-b-finance",
+          "accountId": "234567890123",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "234567890123"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "d91874c8-6c47-491b-909d-d823ec365848",
+        "arn": "arn:aws:iam::234567890123:user/david.raj",
+        "accountId": "234567890123",
+        "userName": "david.raj",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-02T04:06:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-02T04:06:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "91.48.135.181",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-b-hr",
+        "key": "data/upon.flac"
+      },
+      "responseElements": null,
+      "requestID": "24aa48e9-d71d-456c-9662-636101c167d2",
+      "eventID": "03625e9a-6b1b-4533-b452-1126f76f799f",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-b-hr",
+          "accountId": "234567890123",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "234567890123"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "dd7969d5-4e95-441a-9dce-3b99e6c34728",
+        "arn": "arn:aws:iam::234567890123:user/eve.patel",
+        "accountId": "234567890123",
+        "userName": "eve.patel",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-02T05:06:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-02T05:06:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "121.61.234.79",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-b-finance",
+        "key": "data/time.flac"
+      },
+      "responseElements": null,
+      "requestID": "a408c8b9-a355-4a29-b286-93c740f04481",
+      "eventID": "12f4189b-6067-4e96-a4c2-30c55ece0a97",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-b-finance",
+          "accountId": "234567890123",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "234567890123"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "b8ed2814-6c4c-4c0b-a6ce-2808359a138a",
+        "arn": "arn:aws:iam::234567890123:user/david.raj",
+        "accountId": "234567890123",
+        "userName": "david.raj",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-02T06:06:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-02T06:06:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "83.130.121.165",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-b-hr",
+        "key": "data/half.mp4"
+      },
+      "responseElements": null,
+      "requestID": "d3cb7775-33fc-49ba-b648-50c41d0737b8",
+      "eventID": "e3943ed2-2f49-489c-8dd1-e92fb64ca465",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-b-hr",
+          "accountId": "234567890123",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "234567890123"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "f4cae73b-1dcc-4d26-bfbb-b772b79a0481",
+        "arn": "arn:aws:iam::234567890123:user/eve.patel",
+        "accountId": "234567890123",
+        "userName": "eve.patel",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-02T07:06:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-02T07:06:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "50.73.171.173",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-b-hr",
+        "key": "data/mind.mp4"
+      },
+      "responseElements": null,
+      "requestID": "ee08e67d-dee7-49c9-824b-3ca0a1b33330",
+      "eventID": "9ebeca91-24ab-4714-b506-e5af65c7684b",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-b-hr",
+          "accountId": "234567890123",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "234567890123"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "b42bcd65-3d95-4a6c-bb83-32cdbe7f0687",
+        "arn": "arn:aws:iam::234567890123:user/frank.nair",
+        "accountId": "234567890123",
+        "userName": "frank.nair",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-02T08:06:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-02T08:06:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "218.114.103.96",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-b-finance",
+        "key": "data/majority.pptx"
+      },
+      "responseElements": null,
+      "requestID": "e4b005dd-9080-4543-a3d7-a1c07cbf1928",
+      "eventID": "b12e40bf-4700-43dc-8960-ac213e312637",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-b-finance",
+          "accountId": "234567890123",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "234567890123"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "6d0960f8-dc70-46c7-81ad-b88f6d357e30",
+        "arn": "arn:aws:iam::234567890123:user/eve.patel",
+        "accountId": "234567890123",
+        "userName": "eve.patel",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-02T09:06:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-02T09:06:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "113.122.125.10",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-b-hr",
+        "key": "data/wide.flac"
+      },
+      "responseElements": null,
+      "requestID": "b208f2c5-808d-4cc6-bae1-a66edc199282",
+      "eventID": "bacfb03f-34af-45be-9a0e-bd43b4cab2a8",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-b-hr",
+          "accountId": "234567890123",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "234567890123"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "1c0bf9c9-a365-458a-ad9c-c64e8879adb8",
+        "arn": "arn:aws:iam::234567890123:user/frank.nair",
+        "accountId": "234567890123",
+        "userName": "frank.nair",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-02T10:06:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-02T10:06:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ListBucket",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "37.138.151.247",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-b-hr",
+        "key": "data/cost.mp4"
+      },
+      "responseElements": null,
+      "requestID": "82655121-9e89-40b2-b7e2-056a7652eb63",
+      "eventID": "e86bac39-a19d-4c8e-aad7-8481022b5adb",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-b-hr",
+          "accountId": "234567890123",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "234567890123"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "9e38a298-7397-42f2-a59c-8b04ccb01523",
+        "arn": "arn:aws:iam::234567890123:user/david.raj",
+        "accountId": "234567890123",
+        "userName": "david.raj",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-02T11:06:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-02T11:06:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ListBucket",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "51.18.168.237",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-b-finance",
+        "key": "data/road.docx"
+      },
+      "responseElements": null,
+      "requestID": "27173ae7-cf8d-4b91-9356-daa7e41196c1",
+      "eventID": "4ced805c-948b-4fdf-8565-138444d08183",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-b-finance",
+          "accountId": "234567890123",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "234567890123"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "e4485cd5-6bef-48d4-911f-83b95c9c2005",
+        "arn": "arn:aws:iam::234567890123:user/frank.nair",
+        "accountId": "234567890123",
+        "userName": "frank.nair",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-02T12:06:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-02T12:06:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ListBucket",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "148.49.117.35",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-b-hr",
+        "key": "data/six.flac"
+      },
+      "responseElements": null,
+      "requestID": "6fb94cc6-649e-4107-a4cb-654d8664a734",
+      "eventID": "2d83e36e-2ea3-4d3f-bc3b-791292c5a8de",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-b-hr",
+          "accountId": "234567890123",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "234567890123"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "fbfa483e-559a-4321-a8d2-d9b1ce0bab88",
+        "arn": "arn:aws:iam::234567890123:user/frank.nair",
+        "accountId": "234567890123",
+        "userName": "frank.nair",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-02T13:06:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-02T13:06:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ListBucket",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "178.156.25.253",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-b-finance",
+        "key": "data/stand.txt"
+      },
+      "responseElements": null,
+      "requestID": "cd56cc96-9613-4f0f-a6d6-0d61aa1bbb5f",
+      "eventID": "19cc099d-5298-45a0-b728-d4ae54e72e3e",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-b-finance",
+          "accountId": "234567890123",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "234567890123"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "bbea9a40-4ed4-48a9-9696-6a1c7dcc0cd7",
+        "arn": "arn:aws:iam::234567890123:user/david.raj",
+        "accountId": "234567890123",
+        "userName": "david.raj",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-02T14:06:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-02T14:06:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ListBucket",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "39.221.94.129",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-b-finance",
+        "key": "data/bad.wav"
+      },
+      "responseElements": null,
+      "requestID": "14e5a915-c247-4ff4-b536-dba8bc64971c",
+      "eventID": "1266f09c-a0a2-49c5-b4bf-95fcf2595595",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-b-finance",
+          "accountId": "234567890123",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "234567890123"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "8e6b8552-65ac-4e29-87ce-9f7d89e5ce8d",
+        "arn": "arn:aws:iam::234567890123:user/frank.nair",
+        "accountId": "234567890123",
+        "userName": "frank.nair",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-02T15:06:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-02T15:06:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ListBucket",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "75.21.7.14",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-b-hr",
+        "key": "data/treat.mp4"
+      },
+      "responseElements": null,
+      "requestID": "a34a3198-3ccb-4b88-8031-aeb6604a54db",
+      "eventID": "f1aa14c8-7bfe-4882-9f08-3ff6ac6f24dc",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-b-hr",
+          "accountId": "234567890123",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "234567890123"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "1e775167-aa5b-4c4e-992c-462e33dfeff5",
+        "arn": "arn:aws:iam::234567890123:user/eve.patel",
+        "accountId": "234567890123",
+        "userName": "eve.patel",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-02T16:06:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-02T16:06:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ListBucket",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "91.56.230.238",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-b-finance",
+        "key": "data/station.png"
+      },
+      "responseElements": null,
+      "requestID": "f2e667b3-3f9f-4c9f-8ef5-cf94814d135d",
+      "eventID": "f3d7c2bf-f95d-42cb-b204-8c62a4d3f1fc",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-b-finance",
+          "accountId": "234567890123",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "234567890123"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "17c18601-6cb2-46a6-959a-e4592a73864d",
+        "arn": "arn:aws:iam::234567890123:user/frank.nair",
+        "accountId": "234567890123",
+        "userName": "frank.nair",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-02T17:06:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-02T17:06:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ListBucket",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "88.75.11.15",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-b-finance",
+        "key": "data/event.csv"
+      },
+      "responseElements": null,
+      "requestID": "1b879aae-cc2f-43d9-ba6e-6b3b940ec805",
+      "eventID": "3a50fe8d-df97-47a9-8fde-5afb5c7a9288",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-b-finance",
+          "accountId": "234567890123",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "234567890123"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "512a468c-d2dc-4a0a-9058-e8ef098d4d8d",
+        "arn": "arn:aws:iam::234567890123:user/david.raj",
+        "accountId": "234567890123",
+        "userName": "david.raj",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-02T18:06:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-02T18:06:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ListBucket",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "113.0.130.8",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-b-hr",
+        "key": "data/anything.bmp"
+      },
+      "responseElements": null,
+      "requestID": "330f82f1-1de6-495b-a687-1c62be6a2b2d",
+      "eventID": "850f84f9-d33c-4922-8744-81cfd021b40e",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-b-hr",
+          "accountId": "234567890123",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "234567890123"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "f50dbe86-9f36-45c4-ad89-68d71a74136f",
+        "arn": "arn:aws:iam::234567890123:user/david.raj",
+        "accountId": "234567890123",
+        "userName": "david.raj",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-02T19:06:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-02T19:06:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ListBucket",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "53.228.120.229",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-b-hr",
+        "key": "data/list.numbers"
+      },
+      "responseElements": null,
+      "requestID": "41558cef-0052-4737-966e-c9742cadf5cd",
+      "eventID": "18693a4c-7937-42ae-9f34-af6b6236f8b8",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-b-hr",
+          "accountId": "234567890123",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "234567890123"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "0de8c136-4602-44b2-8ee4-08cb385eb213",
+        "arn": "arn:aws:iam::234567890123:user/frank.nair",
+        "accountId": "234567890123",
+        "userName": "frank.nair",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-02T20:06:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-02T20:06:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ListBucket",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "210.184.180.248",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-b-hr",
+        "key": "data/pull.gif"
+      },
+      "responseElements": null,
+      "requestID": "dbbddfbd-e948-4ff1-b0cc-267b3de609a5",
+      "eventID": "079d68d9-f920-4733-8c06-031338c49daa",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-b-hr",
+          "accountId": "234567890123",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "234567890123"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "cf3c5af4-3092-4380-bb81-0e7629ea0e15",
+        "arn": "arn:aws:iam::234567890123:user/david.raj",
+        "accountId": "234567890123",
+        "userName": "david.raj",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-02T21:06:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-02T21:06:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ListBucket",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "91.237.16.121",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-b-finance",
+        "key": "data/so.jpeg"
+      },
+      "responseElements": null,
+      "requestID": "1b6a24f5-ff2d-4693-8eb8-e5bd2cde0299",
+      "eventID": "4d1b2f1d-2703-4d80-b7fe-1a243a171283",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-b-finance",
+          "accountId": "234567890123",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "234567890123"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "a685c7b2-6cf6-4966-a3cf-b93ad918f5db",
+        "arn": "arn:aws:iam::234567890123:user/frank.nair",
+        "accountId": "234567890123",
+        "userName": "frank.nair",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-02T22:06:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-02T22:06:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ListBucket",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "223.196.5.170",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-b-hr",
+        "key": "data/several.wav"
+      },
+      "responseElements": null,
+      "requestID": "eacba2f9-f0fc-48dd-9b86-dcf4865ca054",
+      "eventID": "3de6de68-2dc1-406b-b812-78cf5609e3cf",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-b-hr",
+          "accountId": "234567890123",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "234567890123"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "8ddc60be-68fd-404d-b2a2-6950ded25a82",
+        "arn": "arn:aws:iam::234567890123:user/eve.patel",
+        "accountId": "234567890123",
+        "userName": "eve.patel",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-02T23:06:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-02T23:06:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ListBucket",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "8.100.178.234",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-b-finance",
+        "key": "data/today.wav"
+      },
+      "responseElements": null,
+      "requestID": "b55c3a32-469a-4d3a-9cc2-23352e2bfc1a",
+      "eventID": "d2e3f9cd-5650-4160-b2ed-d83c3bf1df9b",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-b-finance",
+          "accountId": "234567890123",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "234567890123"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "5ba7d8af-d893-4d21-a29c-8b6bdec71c6e",
+        "arn": "arn:aws:iam::234567890123:user/david.raj",
+        "accountId": "234567890123",
+        "userName": "david.raj",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-03T00:06:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-03T00:06:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ListBucket",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "19.189.141.144",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-b-hr",
+        "key": "data/officer.png"
+      },
+      "responseElements": null,
+      "requestID": "de2938ac-3671-4fb5-8681-010351aa5f01",
+      "eventID": "6c3ed751-4a0d-438b-bd0d-1f76490bd851",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-b-hr",
+          "accountId": "234567890123",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "234567890123"
+    }
+  ]
+}

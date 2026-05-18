@@ -1,0 +1,16 @@
+Research Question:
+Can automated LLM-based scope validation and rule-based PII 
+detection prevent legally non-compliant forensic evidence 
+release in multi-tenant cloud environments?
+
+Null Hypothesis (H0):
+Automated scope validation and PII detection produce no 
+measurable improvement in precision, recall, or processing 
+time compared to manual human review for preventing 
+non-compliant evidence release.
+
+Alternative Hypothesis (H1):
+Automated scope validation achieves precision and recall 
+greater than 0.80, and automated PII detection achieves 
+F1 greater than 0.80, with significantly lower processing 
+time than manual review.    

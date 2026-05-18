@@ -1,0 +1,1644 @@
+{
+  "Records": [
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "ccda1af9-43f0-43c7-9e18-4b43acb6b90e",
+        "arn": "arn:aws:iam::123456789012:user/bob.kumar",
+        "accountId": "123456789012",
+        "userName": "bob.kumar",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-01T09:21:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-01T09:21:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ConsoleLogin",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "61.157.106.122",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-a-backup",
+        "key": "data/eye.pptx"
+      },
+      "responseElements": null,
+      "requestID": "8abbf7af-7878-4250-b884-f67ab76166b5",
+      "eventID": "a23b8a70-b099-4813-a7d4-71b052153c2b",
+      "readOnly": false,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-a-backup",
+          "accountId": "123456789012",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "123456789012"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "00b246c6-6f3d-40d7-b895-b40d61b52ce0",
+        "arn": "arn:aws:iam::123456789012:user/carol.smith",
+        "accountId": "123456789012",
+        "userName": "carol.smith",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-01T10:21:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-01T10:21:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ConsoleLogin",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "214.214.14.195",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-a-backup",
+        "key": "data/claim.odp"
+      },
+      "responseElements": null,
+      "requestID": "1e3cf0b1-0666-4fec-a6ac-f6b06f3cd96b",
+      "eventID": "493a0e78-65f0-477f-8586-0c7d8921b619",
+      "readOnly": false,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-a-backup",
+          "accountId": "123456789012",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "123456789012"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "5b71104d-63fc-424c-9c39-a970ac858c41",
+        "arn": "arn:aws:iam::123456789012:user/alice.chen",
+        "accountId": "123456789012",
+        "userName": "alice.chen",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-01T11:21:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-01T11:21:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ConsoleLogin",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "73.239.19.129",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-a-backup",
+        "key": "data/hotel.avi"
+      },
+      "responseElements": null,
+      "requestID": "8544a39c-eff4-4468-9a60-e972ae891600",
+      "eventID": "d1a77b94-4c66-44fd-87ef-2a126b908100",
+      "readOnly": false,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-a-backup",
+          "accountId": "123456789012",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "123456789012"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "4b81bfd9-be45-4bc1-b6e7-7369d7cd4202",
+        "arn": "arn:aws:iam::123456789012:user/alice.chen",
+        "accountId": "123456789012",
+        "userName": "alice.chen",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-01T12:21:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-01T12:21:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ConsoleLogin",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "125.112.124.221",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-a-backup",
+        "key": "data/word.flac"
+      },
+      "responseElements": null,
+      "requestID": "d4bddf52-5725-44e4-b327-9dc913ea96a8",
+      "eventID": "a68d45d6-6de3-47f1-8d1f-591a10359338",
+      "readOnly": false,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-a-backup",
+          "accountId": "123456789012",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "123456789012"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "3343f378-4f45-4305-a8d6-bf0862522fc8",
+        "arn": "arn:aws:iam::123456789012:user/carol.smith",
+        "accountId": "123456789012",
+        "userName": "carol.smith",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-01T13:21:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-01T13:21:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ConsoleLogin",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "82.206.174.82",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-a-data",
+        "key": "data/fly.ppt"
+      },
+      "responseElements": null,
+      "requestID": "8f0b1364-24f4-4958-8a9b-a759d352b79d",
+      "eventID": "4b506c0e-90a3-4813-b8da-c3d9e93e26c6",
+      "readOnly": false,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-a-data",
+          "accountId": "123456789012",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "123456789012"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "88fa762a-e75b-4002-9c6e-309596cb5564",
+        "arn": "arn:aws:iam::123456789012:user/carol.smith",
+        "accountId": "123456789012",
+        "userName": "carol.smith",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-01T14:21:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-01T14:21:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ConsoleLogin",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "17.70.241.113",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-a-backup",
+        "key": "data/security.avi"
+      },
+      "responseElements": null,
+      "requestID": "eed1bada-c104-4d72-9c95-46c1a59ad846",
+      "eventID": "ee4bdb96-c80e-4c52-9eed-170e2d650680",
+      "readOnly": false,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-a-backup",
+          "accountId": "123456789012",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "123456789012"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "69f41707-60db-4610-83c4-0ef98265631e",
+        "arn": "arn:aws:iam::123456789012:user/carol.smith",
+        "accountId": "123456789012",
+        "userName": "carol.smith",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-01T15:21:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-01T15:21:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ConsoleLogin",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "41.37.237.118",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-a-backup",
+        "key": "data/form.html"
+      },
+      "responseElements": null,
+      "requestID": "ac324d28-cabb-4d12-9e6e-a300ebebf415",
+      "eventID": "bc0a8afd-eeaa-46a0-9c16-21a8f6441b7f",
+      "readOnly": false,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-a-backup",
+          "accountId": "123456789012",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "123456789012"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "e133e26c-c948-4e45-91a9-6ee1d8997734",
+        "arn": "arn:aws:iam::123456789012:user/bob.kumar",
+        "accountId": "123456789012",
+        "userName": "bob.kumar",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-01T16:21:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-01T16:21:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ConsoleLogin",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "92.108.180.115",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-a-backup",
+        "key": "data/stop.wav"
+      },
+      "responseElements": null,
+      "requestID": "1ed70bc5-b84c-4229-8bfd-a00c51ace238",
+      "eventID": "24737571-c7ef-48f7-800b-e3c87adde85d",
+      "readOnly": false,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-a-backup",
+          "accountId": "123456789012",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "123456789012"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "8f17889e-3c80-4ae6-a87f-d2b80da88258",
+        "arn": "arn:aws:iam::123456789012:user/bob.kumar",
+        "accountId": "123456789012",
+        "userName": "bob.kumar",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-01T17:21:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-01T17:21:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ConsoleLogin",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "107.173.106.254",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-a-data",
+        "key": "data/morning.bmp"
+      },
+      "responseElements": null,
+      "requestID": "bd2086be-94f3-4bf5-bf0a-2b3bf9f86405",
+      "eventID": "90b146c1-9b6d-4857-a508-8c6a8ffcc55c",
+      "readOnly": false,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-a-data",
+          "accountId": "123456789012",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "123456789012"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "ec416d2c-af88-40c2-89b8-393e7e4c8fe9",
+        "arn": "arn:aws:iam::123456789012:user/bob.kumar",
+        "accountId": "123456789012",
+        "userName": "bob.kumar",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-01T18:21:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-01T18:21:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ConsoleLogin",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "32.130.25.143",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-a-backup",
+        "key": "data/issue.tiff"
+      },
+      "responseElements": null,
+      "requestID": "cf737a18-726f-4dd7-af9b-efa4ba9415f3",
+      "eventID": "fcc17864-6300-4bf3-8ac4-439cfce54311",
+      "readOnly": false,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-a-backup",
+          "accountId": "123456789012",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "123456789012"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "a224edad-cd6c-4695-a8a7-069c231b5faa",
+        "arn": "arn:aws:iam::123456789012:user/bob.kumar",
+        "accountId": "123456789012",
+        "userName": "bob.kumar",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-01T19:21:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-01T19:21:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ConsoleLogin",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "223.34.80.98",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-a-data",
+        "key": "data/according.webm"
+      },
+      "responseElements": null,
+      "requestID": "739461ef-007f-4193-bfce-b469326e40f7",
+      "eventID": "171f9cf2-4e70-429f-8ee7-cea41c1772fd",
+      "readOnly": false,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-a-data",
+          "accountId": "123456789012",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "123456789012"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "cf0442d5-ec59-4225-a404-575f853e4318",
+        "arn": "arn:aws:iam::123456789012:user/alice.chen",
+        "accountId": "123456789012",
+        "userName": "alice.chen",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-01T20:21:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-01T20:21:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ConsoleLogin",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "43.105.130.154",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-a-data",
+        "key": "data/current.pages"
+      },
+      "responseElements": null,
+      "requestID": "9ec7f617-a6b4-4c23-8cb6-b30f619637e0",
+      "eventID": "619a8de3-fd73-4d49-b52d-1c20c074dda7",
+      "readOnly": false,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-a-data",
+          "accountId": "123456789012",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "123456789012"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "a4f4008c-ad4e-44bf-96bf-8d4d41a8a984",
+        "arn": "arn:aws:iam::123456789012:user/carol.smith",
+        "accountId": "123456789012",
+        "userName": "carol.smith",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-01T21:21:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-01T21:21:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ConsoleLogin",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "68.85.144.40",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-a-backup",
+        "key": "data/raise.flac"
+      },
+      "responseElements": null,
+      "requestID": "2a47bec1-c2d0-4acf-b3fa-15d87096b374",
+      "eventID": "7af8fb7f-915b-45f1-8591-9c5cd8744bc7",
+      "readOnly": false,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-a-backup",
+          "accountId": "123456789012",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "123456789012"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "e7e7f997-3344-443e-86f7-1b832594f7fa",
+        "arn": "arn:aws:iam::123456789012:user/alice.chen",
+        "accountId": "123456789012",
+        "userName": "alice.chen",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-01T22:21:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-01T22:21:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ConsoleLogin",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "76.191.187.64",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-a-backup",
+        "key": "data/physical.css"
+      },
+      "responseElements": null,
+      "requestID": "14d07570-7140-4eb1-a995-89de5ea799c7",
+      "eventID": "4ee921cb-627f-4b40-beaa-7d34804d9c89",
+      "readOnly": false,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-a-backup",
+          "accountId": "123456789012",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "123456789012"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "dd5b4818-f744-4afd-b377-eb529f43e476",
+        "arn": "arn:aws:iam::123456789012:user/bob.kumar",
+        "accountId": "123456789012",
+        "userName": "bob.kumar",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-01T23:21:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-01T23:21:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ConsoleLogin",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "156.108.172.114",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-a-backup",
+        "key": "data/writer.jpg"
+      },
+      "responseElements": null,
+      "requestID": "5a56b97a-824a-42f1-97ea-984068e8a483",
+      "eventID": "3744bb03-105d-4132-8eb4-a18030f54634",
+      "readOnly": false,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-a-backup",
+          "accountId": "123456789012",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "123456789012"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "954ab8dd-8a74-4fd4-a76e-0db557b31f1b",
+        "arn": "arn:aws:iam::123456789012:user/carol.smith",
+        "accountId": "123456789012",
+        "userName": "carol.smith",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-02T00:21:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-02T00:21:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ConsoleLogin",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "164.206.253.79",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-a-backup",
+        "key": "data/enter.mp4"
+      },
+      "responseElements": null,
+      "requestID": "2f042008-c51d-466f-b5e3-fb79aac386f4",
+      "eventID": "28610bee-aa3a-4213-8ac0-d0eca72a0c23",
+      "readOnly": false,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-a-backup",
+          "accountId": "123456789012",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "123456789012"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "93e8ffbf-34fa-43ac-94e4-6496e00a08bb",
+        "arn": "arn:aws:iam::123456789012:user/alice.chen",
+        "accountId": "123456789012",
+        "userName": "alice.chen",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-02T01:21:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-02T01:21:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ConsoleLogin",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "123.68.32.140",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-a-data",
+        "key": "data/indicate.flac"
+      },
+      "responseElements": null,
+      "requestID": "32729111-7500-472e-a572-343def765b2a",
+      "eventID": "661be380-8a3f-4f87-8b91-1195b9f80501",
+      "readOnly": false,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-a-data",
+          "accountId": "123456789012",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "123456789012"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "3ae429fb-c941-4fea-b769-e1b0f609e673",
+        "arn": "arn:aws:iam::123456789012:user/alice.chen",
+        "accountId": "123456789012",
+        "userName": "alice.chen",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-02T02:21:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-02T02:21:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ConsoleLogin",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "73.250.164.104",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-a-data",
+        "key": "data/defense.xls"
+      },
+      "responseElements": null,
+      "requestID": "a385bb58-4992-4c46-85d3-124f9262f2d9",
+      "eventID": "e45ccc07-32e3-48fc-91e7-b2e97e280af5",
+      "readOnly": false,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-a-data",
+          "accountId": "123456789012",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "123456789012"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "c474d23d-3118-4c92-9810-765f8a4d0210",
+        "arn": "arn:aws:iam::123456789012:user/bob.kumar",
+        "accountId": "123456789012",
+        "userName": "bob.kumar",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-02T03:21:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-02T03:21:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ConsoleLogin",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "132.185.141.188",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-a-backup",
+        "key": "data/this.doc"
+      },
+      "responseElements": null,
+      "requestID": "9ea6f1c8-8c6a-4d77-99f7-de9130642ab8",
+      "eventID": "a49f250a-82dc-4ed7-82c1-85db55d4916e",
+      "readOnly": false,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-a-backup",
+          "accountId": "123456789012",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "123456789012"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "d43aa53e-3797-4f85-838e-241781e4c693",
+        "arn": "arn:aws:iam::123456789012:user/carol.smith",
+        "accountId": "123456789012",
+        "userName": "carol.smith",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-02T04:21:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-02T04:21:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ConsoleLogin",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "164.111.22.112",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-a-data",
+        "key": "data/impact.bmp"
+      },
+      "responseElements": null,
+      "requestID": "d5cbed84-c8c6-41dc-a252-78dcfd529658",
+      "eventID": "1a54a174-8439-41cf-a3c6-246fc58af347",
+      "readOnly": false,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-a-data",
+          "accountId": "123456789012",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "123456789012"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "dd448b0e-7102-447d-94ec-c45184b57510",
+        "arn": "arn:aws:iam::123456789012:user/carol.smith",
+        "accountId": "123456789012",
+        "userName": "carol.smith",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-02T05:21:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-02T05:21:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ConsoleLogin",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "104.226.68.221",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-a-backup",
+        "key": "data/generation.json"
+      },
+      "responseElements": null,
+      "requestID": "f0431f06-1bae-47da-ab7b-3ab8cc3f6e75",
+      "eventID": "112aa2b4-9088-4e2d-bc2f-ac234220c35d",
+      "readOnly": false,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-a-backup",
+          "accountId": "123456789012",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "123456789012"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "a00d9ad3-3cd6-407e-b3a2-816ccdd304bc",
+        "arn": "arn:aws:iam::123456789012:user/bob.kumar",
+        "accountId": "123456789012",
+        "userName": "bob.kumar",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-02T06:21:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-02T06:21:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ConsoleLogin",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "42.228.87.238",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-a-data",
+        "key": "data/professional.webm"
+      },
+      "responseElements": null,
+      "requestID": "d8c5a654-cb7a-4b08-976d-d30dcf399cfb",
+      "eventID": "927c3969-5d26-418e-b0dd-53970bf00f06",
+      "readOnly": false,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-a-data",
+          "accountId": "123456789012",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "123456789012"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "8ece115a-9d7a-4052-bc6c-caaddac23106",
+        "arn": "arn:aws:iam::123456789012:user/alice.chen",
+        "accountId": "123456789012",
+        "userName": "alice.chen",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-02T07:21:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-02T07:21:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ConsoleLogin",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "8.14.49.73",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-a-data",
+        "key": "data/thus.mp3"
+      },
+      "responseElements": null,
+      "requestID": "4f7d5ce1-0089-4fd0-ada9-13674d05b4d2",
+      "eventID": "df4428d1-0ce4-49aa-8c09-47f939b8d874",
+      "readOnly": false,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-a-data",
+          "accountId": "123456789012",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "123456789012"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "12d1a446-7c4e-49fd-8bdd-2c1797e74618",
+        "arn": "arn:aws:iam::123456789012:user/alice.chen",
+        "accountId": "123456789012",
+        "userName": "alice.chen",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-02T08:21:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-02T08:21:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ConsoleLogin",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "109.3.86.146",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-a-backup",
+        "key": "data/stop.json"
+      },
+      "responseElements": null,
+      "requestID": "dd001bca-2fef-4ce7-8b99-ef3acb5cf3ae",
+      "eventID": "301b0ac5-5c41-4a0f-937e-fe82ae5a833e",
+      "readOnly": false,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-a-backup",
+          "accountId": "123456789012",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "123456789012"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "fb3abc40-8cff-4809-96bf-313c8f1d2d89",
+        "arn": "arn:aws:iam::123456789012:user/alice.chen",
+        "accountId": "123456789012",
+        "userName": "alice.chen",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-02T09:21:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-02T09:21:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ConsoleLogin",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "97.51.44.10",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-a-data",
+        "key": "data/sound.avi"
+      },
+      "responseElements": null,
+      "requestID": "1e857b59-29fa-4a9d-a88b-9720cb7d75d2",
+      "eventID": "f230a80e-0d9d-4d88-a1f9-b491086e1180",
+      "readOnly": false,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-a-data",
+          "accountId": "123456789012",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "123456789012"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "b94698aa-f758-42b9-bdf2-b32bdaae63de",
+        "arn": "arn:aws:iam::123456789012:user/carol.smith",
+        "accountId": "123456789012",
+        "userName": "carol.smith",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-02T10:21:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-02T10:21:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ConsoleLogin",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "181.140.83.86",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-a-data",
+        "key": "data/painting.mp3"
+      },
+      "responseElements": null,
+      "requestID": "7f023f16-f545-4b39-8ab8-d5e9fd0f1347",
+      "eventID": "92348f5a-efce-4b02-9859-758e98275f7f",
+      "readOnly": false,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-a-data",
+          "accountId": "123456789012",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "123456789012"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "9b025c39-56bd-4b0d-a1a2-90b4748f7d3e",
+        "arn": "arn:aws:iam::123456789012:user/bob.kumar",
+        "accountId": "123456789012",
+        "userName": "bob.kumar",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-02T11:21:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-02T11:21:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ConsoleLogin",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "152.251.219.60",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-a-data",
+        "key": "data/interest.tiff"
+      },
+      "responseElements": null,
+      "requestID": "8fdaba06-9752-4edf-b476-d0f201abedaa",
+      "eventID": "015b81b0-d4df-4aaf-8c21-612cc41cde62",
+      "readOnly": false,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-a-data",
+          "accountId": "123456789012",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "123456789012"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "6b0df35c-c02a-4916-878e-cd7cde376512",
+        "arn": "arn:aws:iam::123456789012:user/alice.chen",
+        "accountId": "123456789012",
+        "userName": "alice.chen",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-02T12:21:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-02T12:21:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ConsoleLogin",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "102.244.105.16",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-a-data",
+        "key": "data/from.mp3"
+      },
+      "responseElements": null,
+      "requestID": "7a1d9246-35a7-41a3-8597-956e5aa5b444",
+      "eventID": "56d380a1-d794-4897-8b5b-d09db87d4ece",
+      "readOnly": false,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-a-data",
+          "accountId": "123456789012",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "123456789012"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "7663e247-ff5a-4c05-b76a-35f7b63c688d",
+        "arn": "arn:aws:iam::123456789012:user/bob.kumar",
+        "accountId": "123456789012",
+        "userName": "bob.kumar",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-02T13:21:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-02T13:21:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ConsoleLogin",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "188.152.9.125",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-a-backup",
+        "key": "data/word.mov"
+      },
+      "responseElements": null,
+      "requestID": "067470ce-4123-4873-a445-2fcb4a10c02d",
+      "eventID": "a6c02127-6076-468b-9c8b-2ae085120e74",
+      "readOnly": false,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-a-backup",
+          "accountId": "123456789012",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "123456789012"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "bebfb121-89ff-45f3-ba99-73b396c87bab",
+        "arn": "arn:aws:iam::123456789012:user/carol.smith",
+        "accountId": "123456789012",
+        "userName": "carol.smith",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-02T14:21:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-02T14:21:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ConsoleLogin",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "82.128.64.150",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-a-backup",
+        "key": "data/southern.jpeg"
+      },
+      "responseElements": null,
+      "requestID": "8d9b7b41-9820-4866-9e77-0fdcd14d5442",
+      "eventID": "aba61e4c-ac79-4cdc-b861-e16485bf07a9",
+      "readOnly": false,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-a-backup",
+          "accountId": "123456789012",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "123456789012"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "15387d97-8869-4753-a1a7-84e0211c5fda",
+        "arn": "arn:aws:iam::123456789012:user/carol.smith",
+        "accountId": "123456789012",
+        "userName": "carol.smith",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-02T15:21:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-02T15:21:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "10.79.119.155",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-a-data",
+        "key": "data/foot.mp4"
+      },
+      "responseElements": null,
+      "requestID": "a99ed7cb-68a6-4d62-b178-77aace606e42",
+      "eventID": "57aa4a5c-0b9f-4600-a7c0-d02323455816",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-a-data",
+          "accountId": "123456789012",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "123456789012"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "cb729a59-f88a-46bd-a096-254becf651a5",
+        "arn": "arn:aws:iam::123456789012:user/bob.kumar",
+        "accountId": "123456789012",
+        "userName": "bob.kumar",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-02T16:21:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-02T16:21:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "98.232.93.217",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-a-backup",
+        "key": "data/kitchen.wav"
+      },
+      "responseElements": null,
+      "requestID": "dba9f9e5-844b-4ce6-918c-5cca7d25720a",
+      "eventID": "33cbb2b5-9717-484a-bb2a-970a6c4f5c1c",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-a-backup",
+          "accountId": "123456789012",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "123456789012"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "6565c000-d5ac-4789-b303-8657ea071b9b",
+        "arn": "arn:aws:iam::123456789012:user/carol.smith",
+        "accountId": "123456789012",
+        "userName": "carol.smith",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-02T17:21:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-02T17:21:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "13.47.59.71",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-a-backup",
+        "key": "data/cause.jpeg"
+      },
+      "responseElements": null,
+      "requestID": "557368aa-4ae5-4a00-ba3e-bd0e0d9e5afc",
+      "eventID": "afb53eef-5fe2-4ad1-8d87-48ad118eb14a",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-a-backup",
+          "accountId": "123456789012",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "123456789012"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "af42294b-df6d-4c16-a72a-cc7fd29945c3",
+        "arn": "arn:aws:iam::123456789012:user/bob.kumar",
+        "accountId": "123456789012",
+        "userName": "bob.kumar",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-02T18:21:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-02T18:21:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "112.110.103.83",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-a-data",
+        "key": "data/mother.pages"
+      },
+      "responseElements": null,
+      "requestID": "10edd934-337e-4faf-859e-319d8d066d47",
+      "eventID": "38af08d0-a6e2-496f-8601-f9408e859ff2",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-a-data",
+          "accountId": "123456789012",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "123456789012"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "53d8d3ac-4e50-4493-8f75-b31f47ad3bcd",
+        "arn": "arn:aws:iam::123456789012:user/alice.chen",
+        "accountId": "123456789012",
+        "userName": "alice.chen",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-02T19:21:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-02T19:21:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "105.157.66.0",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-a-backup",
+        "key": "data/beyond.txt"
+      },
+      "responseElements": null,
+      "requestID": "e1465fec-18fd-4fa0-b29c-bea403b519f4",
+      "eventID": "15d9a0a7-e854-4560-9c7f-8013fbc2f7ef",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-a-backup",
+          "accountId": "123456789012",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "123456789012"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "c1bb656f-91a1-4980-8b8f-615c302c2c7c",
+        "arn": "arn:aws:iam::123456789012:user/carol.smith",
+        "accountId": "123456789012",
+        "userName": "carol.smith",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-02T20:21:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-02T20:21:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "172.213.107.219",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-a-backup",
+        "key": "data/something.json"
+      },
+      "responseElements": null,
+      "requestID": "c6a61f4a-a850-4545-b9d1-d427e02dbce3",
+      "eventID": "f3f4f8dc-37e2-4341-a87e-5bcf49614611",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-a-backup",
+          "accountId": "123456789012",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "123456789012"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "3f046852-3e16-4e18-b771-475bcf16e5c2",
+        "arn": "arn:aws:iam::123456789012:user/carol.smith",
+        "accountId": "123456789012",
+        "userName": "carol.smith",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-02T21:21:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-02T21:21:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "100.20.241.203",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-a-backup",
+        "key": "data/put.webm"
+      },
+      "responseElements": null,
+      "requestID": "25b7c702-c514-44d7-ab1d-b6a274c8a812",
+      "eventID": "aa9e5331-0333-4b90-b5c7-c7e3f5ea213d",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-a-backup",
+          "accountId": "123456789012",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "123456789012"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "9c59e204-d4e4-4791-9ce1-377f4c078ace",
+        "arn": "arn:aws:iam::123456789012:user/carol.smith",
+        "accountId": "123456789012",
+        "userName": "carol.smith",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-02T22:21:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-02T22:21:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "95.144.97.53",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-a-backup",
+        "key": "data/vote.flac"
+      },
+      "responseElements": null,
+      "requestID": "ff06003d-63e2-47c5-a11a-ed34229ea0f2",
+      "eventID": "158f1d31-3031-4011-8b60-e03c5a33a03f",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-a-backup",
+          "accountId": "123456789012",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "123456789012"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "f98b6e4a-f55e-4fcc-934c-b9721cc8b494",
+        "arn": "arn:aws:iam::123456789012:user/bob.kumar",
+        "accountId": "123456789012",
+        "userName": "bob.kumar",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-02T23:21:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-02T23:21:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "97.32.127.172",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-a-data",
+        "key": "data/later.mov"
+      },
+      "responseElements": null,
+      "requestID": "d83a8b1b-6a4e-4933-b11f-bd94d1f9af8e",
+      "eventID": "236cdfbc-6696-418e-b41b-be9fdf3cae9c",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-a-data",
+          "accountId": "123456789012",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "123456789012"
+    },
+    {
+      "eventVersion": "1.09",
+      "userIdentity": {
+        "type": "IAMUser",
+        "principalId": "86c66568-f472-4581-8e42-2fb2f1a79197",
+        "arn": "arn:aws:iam::123456789012:user/alice.chen",
+        "accountId": "123456789012",
+        "userName": "alice.chen",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "attributes": {
+            "mfaAuthenticated": "false",
+            "creationDate": "2025-05-03T00:21:00"
+          }
+        }
+      },
+      "eventTime": "2025-05-03T00:21:00Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "GetObject",
+      "awsRegion": "ap-south-1",
+      "sourceIPAddress": "47.204.6.107",
+      "userAgent": "aws-cli/2.0",
+      "requestParameters": {
+        "bucketName": "tenant-a-data",
+        "key": "data/effort.ppt"
+      },
+      "responseElements": null,
+      "requestID": "16d3f672-977f-4433-a136-8de6816e2975",
+      "eventID": "e2552a3a-a2e5-466a-9620-0f09e9ea801d",
+      "readOnly": true,
+      "resources": [
+        {
+          "ARN": "arn:aws:s3:::tenant-a-data",
+          "accountId": "123456789012",
+          "type": "AWS::S3::Bucket"
+        }
+      ],
+      "eventType": "AwsApiCall",
+      "managementEvent": false,
+      "recipientAccountId": "123456789012"
+    }
+  ]
+}
