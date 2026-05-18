@@ -1,0 +1,32 @@
+Dataset Statistics
+
+Total PII entities: 10,500
+
+Entity Type Distribution:
+
+* AWS_ACCOUNT_ID: 4,500
+* AWS_ARN: 3,000
+* PERSON: 1,500
+* IP_ADDRESS: 1,500
+
+Tenant Distribution:
+
+* tenant-a: 3,500
+* tenant-b: 3,500
+* tenant-c: 3,500
+
+Regulation Distribution:
+
+* GDPR_Art5_1b, DPDPA_S8: 9,000
+* GDPR_Art5_1a, DPDPA_S8: 1,500
+
+
+
+
+We generated 51 synthetic AWS CloudTrail JSON log files using the Faker library across three simulated tenants 
+representing credential spray, insider exfiltration, and ransomware scenarios. Each file contains between 20 and 40 events seeded 
+with realistic AWS resource identifiers, IAM usernames, IP addresses, and S3 ARNs. The dataset was manually annotated 
+for personally identifiable information (PII) entities using a regex-assisted annotation workflow. 
+Annotation quality was verified through repeated manual inspection across randomly sampled files. 
+The final annotation corpus contains 10,500 labeled entities across four entity types: PERSON, IP_ADDRESS, AWS_ARN, 
+and AWS_ACCOUNT_ID.
