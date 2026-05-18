@@ -1,0 +1,7 @@
+{
+  "verdict": "OVER_COLLECTION",
+  "issues": [
+    "wrong_tenant",
+    "time_window_wide"
+  ]
+}

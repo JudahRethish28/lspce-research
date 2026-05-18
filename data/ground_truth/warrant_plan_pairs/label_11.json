@@ -1,0 +1,6 @@
+{
+  "verdict": "OVER_COLLECTION",
+  "issues": [
+    "wrong_tenant"
+  ]
+}

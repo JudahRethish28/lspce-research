@@ -1,0 +1,31 @@
+pair_id,verdict,violation_type,notes
+1,APPROVED,none,exact match
+2,APPROVED,none,exact match
+3,APPROVED,none,exact match
+4,APPROVED,none,exact match
+5,APPROVED,none,exact match
+6,APPROVED,none,exact match
+7,APPROVED,none,exact match
+8,APPROVED,none,exact match
+9,APPROVED,none,exact match
+10,APPROVED,none,exact match
+11,OVER_COLLECTION,wrong_tenant,tenant-b instead of tenant-a
+12,OVER_COLLECTION,time_window_wide,7 days vs 3 days
+13,OVER_COLLECTION,extra_evidence_type,added s3_data_events
+14,OVER_COLLECTION,multi_tenant_collection,collects tenant-a and tenant-b
+15,OVER_COLLECTION,early_collection,starts before warrant
+16,OVER_COLLECTION,wrong_tenant + extra_evidence,combined violation
+17,OVER_COLLECTION,wide_window + extra_evidence,combined violation
+18,OVER_COLLECTION,wide_window + wrong_tenant,combined violation
+19,OVER_COLLECTION,multi_tenant + wide_window,combined violation
+20,OVER_COLLECTION,all_violations,multiple violations
+21,UNDER_COLLECTION,missing_evidence_type,missing s3_data_events
+22,UNDER_COLLECTION,narrow_time_window,1 day instead of 3
+23,UNDER_COLLECTION,missing_bucket_scope,one bucket only
+24,UNDER_COLLECTION,missing_time + evidence,combined
+25,UNDER_COLLECTION,missing_bucket + evidence,combined
+26,UNDER_COLLECTION,missing_time + bucket,combined
+27,UNDER_COLLECTION,partial_logs,partial collection
+28,UNDER_COLLECTION,missing_cloudtrail,s3 only
+29,UNDER_COLLECTION,minimal_collection,insufficient scope
+30,UNDER_COLLECTION,multiple_missing,multiple missing items

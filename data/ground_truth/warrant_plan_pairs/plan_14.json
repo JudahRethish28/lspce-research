@@ -1,0 +1,23 @@
+{
+  "warrant_id": "W-014",
+  "proposed_resources": [
+    {
+      "resource_type": "cloudtrail_management",
+      "source_name": "tenant-a-trail",
+      "tenant_id": "tenant-a",
+      "time_window": {
+        "start": "2025-05-01T00:00:00Z",
+        "end": "2025-05-03T23:59:59Z"
+      }
+    },
+    {
+      "resource_type": "cloudtrail_management",
+      "source_name": "tenant-b-trail",
+      "tenant_id": "tenant-b",
+      "time_window": {
+        "start": "2025-05-01T00:00:00Z",
+        "end": "2025-05-03T23:59:59Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "warrant_id": "W-028",
+  "proposed_resources": [
+    {
+      "resource_type": "s3_data_events",
+      "source_name": "tenant-a-s3",
+      "tenant_id": "tenant-a",
+      "time_window": {
+        "start": "2025-05-01T00:00:00Z",
+        "end": "2025-05-03T23:59:59Z"
+      }
+    }
+  ]
+}

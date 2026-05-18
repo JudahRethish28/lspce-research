@@ -1,0 +1,6 @@
+{
+  "verdict": "UNDER_COLLECTION",
+  "issues": [
+    "missing_bucket_scope"
+  ]
+}

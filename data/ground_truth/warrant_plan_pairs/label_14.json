@@ -1,0 +1,6 @@
+{
+  "verdict": "OVER_COLLECTION",
+  "issues": [
+    "multi_tenant_collection"
+  ]
+}
