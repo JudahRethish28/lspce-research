@@ -1,3 +1,0 @@
-PAPER 1 - Zawoad & Hasan — SecLaaS (2013) —
-
-- By SecLaaS (Secure Logging-as-a-Service) for Cloud Forensics checks for 
