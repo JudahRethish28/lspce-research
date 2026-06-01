@@ -57,3 +57,54 @@ def validate_scope(warrant: dict, plan: dict) -> dict:
     text = re.sub(r'\n?```$', '', text)
 
     return json.loads(text.strip())
+
+def reassess_scope_post_collection(
+    pre_verdict: str,
+    cross_tenant_violations: list,
+    pii_findings: list
+) -> dict:
+    """
+    After evidence is collected and PII is detected,
+    reassess the scope verdict incorporating actual findings.
+    This is the function that makes PII operationally relevant.
+    """
+    has_cross_tenant = len(cross_tenant_violations) > 0
+    has_pii          = len(pii_findings) > 0
+
+    if has_cross_tenant:
+        final_verdict    = "PRIVACY_VIOLATION"
+        recommendation   = "BLOCK"
+        explanation      = (
+            f"Collection contained {len(cross_tenant_violations)} "
+            f"PII entities belonging to tenants other than the "
+            f"warrant tenant. Evidence package must be blocked."
+        )
+    elif pre_verdict == "OVER_COLLECTION":
+        # Should not reach here — OVER_COLLECTION halts before
+        # collection. But handle defensively.
+        final_verdict    = "OVER_COLLECTION"
+        recommendation   = "BLOCK"
+        explanation      = "Pre-collection scope check failed."
+    elif has_pii:
+        final_verdict    = "APPROVED_PII_PRESENT"
+        recommendation   = "REDACT"
+        explanation      = (
+            f"Collection is within legal scope but contains "
+            f"{len(pii_findings)} PII entities. Redact before handoff."
+        )
+    else:
+        final_verdict    = "APPROVED_CLEAN"
+        recommendation   = "RELEASE"
+        explanation      = (
+            "Collection is within legal scope and contains no "
+            "detectable PII. Evidence package cleared for handoff."
+        )
+
+    return {
+        "pre_collection_verdict":  pre_verdict,
+        "post_collection_verdict": final_verdict,
+        "recommendation":          recommendation,
+        "explanation":             explanation,
+        "cross_tenant_violations": len(cross_tenant_violations),
+        "total_pii_entities":      len(pii_findings)
+    }
